@@ -1,3 +1,44 @@
-h1 {  
-    color: red;  
+h3, h4 {  
+    color: plum;  
+}
+#introduction {
+    background-color: plum;
+    color: white;
+    padding: 10px;
+}
+* {
+    font-family: Arial, Verdana, sans-serif;
+}
+#box:checked {
+    outline: 3px solid purple;
+  }
+  h1:hover {
+      color: purple;
+  }
+button:disabled {
+    outline: 2px solid pink;
+}
+p {
+    position: relative;
+ }
+ h4::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 20px;
+    width: 70%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+ }
+ h3::after {
+    content: "";
+    background-color: palegoldenrod;
+    height: 20px;
+    width: 70%;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+ }
+ body {
+    padding: 1rem;
 }
